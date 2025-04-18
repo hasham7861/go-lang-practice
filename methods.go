@@ -1,3 +1,7 @@
+package main
+
+import "fmt"
+
 type rect struct {
 	width, height int
 }
@@ -20,6 +24,6 @@ func main() {
 	rp := &r
 	fmt.Println("area:", rp.area())
 	fmt.Println("perim:", rp.perim())
-	
+
 
 }
